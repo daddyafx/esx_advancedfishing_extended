@@ -1,0 +1,1 @@
+esx_advancedfishing_extended
