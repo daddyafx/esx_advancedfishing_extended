@@ -146,6 +146,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(4,9)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish~s~: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 			else
 				if xPlayer.getInventoryItem('fish').count > 100 then
@@ -154,6 +155,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(2,6)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish~s~: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 			end
 		end
@@ -167,6 +169,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(4,11)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish~s~: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 
 			else
@@ -176,6 +179,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(1,6)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish~s~: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 			end
 		end
@@ -188,6 +192,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(2,4)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish~s~: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 			else
 			TriggerClientEvent('fishing:message', _source, "You are currently fishing without any equipped bait")
@@ -197,6 +202,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(1,2)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish~s~: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 			end
 		end
@@ -224,6 +230,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(4,8)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 			end
 		end
@@ -251,6 +258,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(4,8)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 			end
         end
@@ -278,6 +286,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(4,8)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 			end
 		end
@@ -305,6 +314,7 @@ AddEventHandler('fishing:catch', function(bait)
 					weight = math.random(4,8)
 					TriggerClientEvent('fishing:message', _source, "You caught a ~y~fish: ~g~~h~" .. weight .. "kg")
 					xPlayer.addInventoryItem('fish', weight)
+					TriggerClientEvent('fish:spawnPed', _source)
 				end
 			end
         end
